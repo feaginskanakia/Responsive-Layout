@@ -1,0 +1,54 @@
+
+html, body{
+    margin:0;
+    padding:0;
+    height:100%;
+    }
+    body{
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+    }
+    header{
+    background-color:red;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px; 
+}
+nav{
+    background-color:orange;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px; 
+    
+    
+}
+main{
+    display:flex;
+}
+section{
+    background-color:yellow;
+    float:left;
+}
+article{
+    background-color:green;
+    width:60%;
+    display:block;
+   margin:auto;
+}
+aside{
+   background-color: blue;
+  float: right;
+  width: 40%;
+  padding: 10px;
+  top: 0px;
+  bottom: 0px;
+  box-shadow: inset -8px 0 10px -6px #ddd;
+align-items:center; 
+ display:flex;
+ justify-content:center;
+ 
+}
+footer{
+    position:bottom;
+}
